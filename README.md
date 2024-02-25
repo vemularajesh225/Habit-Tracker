@@ -1,6 +1,48 @@
 # Getting Started with Create React App
+Hosted link :(https://vemularajesh225.github.io/Habit-Tracker/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First of all create react project using create-react-app app_name
+
+Delete the unnecessary files
+**Folder structure**
+habit-tracker/
+│
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   │   └── background.jpg
+│   │
+│   ├── components/
+│   │   ├── AddHabit/
+│   │   │   └── AddHabit.js
+│   │   ├── List/
+│   │   │   └── List.js
+│   │   ├── Navbar/
+│   │   │   └── Navbar.js
+│   │   ├── Weekview/
+│   │   │   └── Weekview.js
+│   │   └── Home/
+│   │       └── Home.js
+│   │
+│   ├── redux/
+│   │   ├── actions/
+│   │   │   └── habitActions.js
+│   │   ├── reducers/
+│   │   │   └── habitReducer.js
+│   │   └── Store.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+│
+├── node_modules/
+├── .gitignore
+├── package.json
+├── README.md
+└── other_config_files...
 
 ## Available Scripts
 
